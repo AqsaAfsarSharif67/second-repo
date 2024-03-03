@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <center>
+        <table cellspacing="0" border="1" style="background-color: darkgray;">
+            <tr>
+         <td><Div heigth="100" width="100"><a href="./account-detail.html" style="color: black"> Step 1 : Account</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="./personal-detail.html" style="color: black"> Step 2 : Personal Details</a> &nbsp;&nbsp;&nbsp;&nbsp;  <a href="./your reviews.html" style="color: black"> step : 3 Your Review</a> </Div></td></tr>
+         </table>
+    </center>
+<!-- Form Start -->
+<form>
+    <fieldset>
+        <legend>Your Review:</legend>
+        <p>
+            <label for="hear-about">How did you hear about us?</label>
+            <select name="referrer" id="hear-about">
+            <option value="google">Google</option>
+            <option value="friend">Friend</option>
+            <option value="advert">Advert</option>
+            <option value="other">Other</option>
+            </select>
+            </p>
+        <label>Would You Visit Again:</label>
+        <br/>
+        <input name="Y" type="radio" value="Y" >
+       <label  for="Y">Yes</label>
+       <input name="N" type="radio" value="N">
+       <label for="N">No</label>
+       <input  name="M" type="radio" value="M">
+       <label for="M">May be</label><br>
+       <label for="comments">
+        Comments:
+        </label>
+        <br />
+        <textarea rows="4" cols="30" id="comments" placeholder="Enter your comment here..."></textarea><br>
+        <input type="checkbox" name="subscribe" checked="checked" />
+        Sign me up for email updates
+        </label>
+        <br />
+        <label>Document:</label><br>
+        <input type="file"><br>
+        <br>
+        <a href="./personal-detail.html"><img heigth="100" width="100" src="./images/back.png"></a>
+        <img width="100" src="./images/submit.png">
+        </fieldset>
+</form>
+<!-- Form End -->
+</body>
+</html>
